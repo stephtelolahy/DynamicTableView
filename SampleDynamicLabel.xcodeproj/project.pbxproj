@@ -13,6 +13,7 @@
 		09E764791D812D4A0070FA22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E764771D812D4A0070FA22 /* Main.storyboard */; };
 		09E7647B1D812D4A0070FA22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E7647A1D812D4A0070FA22 /* Assets.xcassets */; };
 		09E7647E1D812D4A0070FA22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09E7647C1D812D4A0070FA22 /* LaunchScreen.storyboard */; };
+		09E764871D812DC90070FA22 /* LabelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E764861D812DC90070FA22 /* LabelTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		09E7647A1D812D4A0070FA22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E7647D1D812D4A0070FA22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09E7647F1D812D4A0070FA22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09E764851D812DC90070FA22 /* LabelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelTableViewCell.h; sourceTree = "<group>"; };
+		09E764861D812DC90070FA22 /* LabelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				09E764721D812D4A0070FA22 /* AppDelegate.m */,
 				09E764741D812D4A0070FA22 /* ViewController.h */,
 				09E764751D812D4A0070FA22 /* ViewController.m */,
+				09E764851D812DC90070FA22 /* LabelTableViewCell.h */,
+				09E764861D812DC90070FA22 /* LabelTableViewCell.m */,
 				09E764771D812D4A0070FA22 /* Main.storyboard */,
 				09E7647A1D812D4A0070FA22 /* Assets.xcassets */,
 				09E7647C1D812D4A0070FA22 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				09E764761D812D4A0070FA22 /* ViewController.m in Sources */,
 				09E764731D812D4A0070FA22 /* AppDelegate.m in Sources */,
+				09E764871D812DC90070FA22 /* LabelTableViewCell.m in Sources */,
 				09E764701D812D4A0070FA22 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
